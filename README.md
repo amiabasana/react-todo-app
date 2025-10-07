@@ -1,12 +1,79 @@
-# React + Vite
+# 📝 React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Todo App** built with **React**, **Vite**, and **Tailwind CSS**.  
+Easily add, complete, and manage tasks with a clean UI and optimized performance.  
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://amiabasana.github.io/react-todo-app/](https://amiabasana.github.io/react-todo-app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Feature | Description |
+|---------|-------------|
+| Add Todos | Quickly add tasks to your list |
+| Complete Todos | Mark tasks as completed with a single click |
+| Delete Todos | Remove tasks easily |
+| Responsive Design | Works on mobile, tablet, and desktop |
+| Dark Mode Ready | UI adapts for dark themes |
+| Lazy Loading | Optimized performance with `React.lazy` |
+| REST API Integration | Demo fetch from JSONPlaceholder |
+
+---
+
+## 🛠 Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| React | Component-based UI & state management |
+| Vite | Fast development & optimized production build |
+| Tailwind CSS | Utility-first modern styling |
+| Lucide React | Clean SVG icons |
+| React Suspense & Lazy | Performance optimization |
+| GitHub Actions | CI/CD deployment to GitHub Pages |
+
+---
+
+## 📁 Project Structure
+
+react-todo-app/
+├─ public/
+│ └─ vite.svg
+├─ src/
+│ ├─ components/
+│ │ ├─ TodoForm.jsx
+│ │ ├─ TodoItem.jsx
+│ │ └─ TodoList.jsx
+│ ├─ App.jsx
+│ ├─ main.jsx
+│ └─ index.css
+├─ .github/workflows/deploy.yml
+├─ package.json
+├─ vite.config.js
+└─ README.md
+
+
+---
+
+## 💻 Installation & Local Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/amiabasana/react-todo-app.git
+cd react-todo-app
+
+# Install dependencies
+npm install
+
+# Run the app locally
+npm run dev
+
+# Build for production
+npm run build
+```
+
+🧑‍💻 Author
+Amisha Abasana – Front-End Developer
+GitHub: https://github.com/amiabasana
+
+
