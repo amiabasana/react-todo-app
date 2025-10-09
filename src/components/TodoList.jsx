@@ -6,8 +6,10 @@ function TodoList({ todos = [], onToggle, onDelete }) {
     return <p className="text-center text-gray-500 mt-4">No todos yet 🚀</p>;
   }
 
+  const scrollClass = todos.length > 6 ? "h-96 overflow-y-scroll" : "h-auto";
+
   return (
-    <ul className="space-y-3">
+    <ul className={`space-y-3 ${scrollClass} scrollbar-thin scrollbar-thumb-blue-800 scrollbar-track-gray-200 hover:scrollbar-thumb-blue-900`}>
       {todos.map((todo) => (
         <li
           key={todo.id}
@@ -34,7 +36,7 @@ function TodoList({ todos = [], onToggle, onDelete }) {
           </button>
           <button
             onClick={() => onDelete(todo.id)}
-            className="mt-2 sm:mt-0 text-red-500 hover:text-red-600 transition self-end sm:self-auto"
+            className="mt-2 sm:mt-0 text-red-500 hover:text-red-600 transition self-end sm:self-auto cursor-pointer"
           >
             <Trash2 />
           </button>
