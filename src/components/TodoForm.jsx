@@ -25,7 +25,7 @@ function TodoForm({ onAdd }) {
       />
       <button
         type="submit"
-        className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition flex items-center justify-center gap-2 text-sm sm:text-base"
+        className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition flex items-center justify-center gap-2 text-sm sm:text-base cursor-pointer"
       >
         <Plus size={18} /> Add
       </button>
