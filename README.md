@@ -36,22 +36,23 @@ Easily add, complete, and manage tasks with a clean UI and optimized performance
 
 ## 📁 Project Structure
 
+```
 react-todo-app/
 ├─ public/
-│ └─ vite.svg
+│  └─ vite.svg
 ├─ src/
-│ ├─ components/
-│ │ ├─ TodoForm.jsx
-│ │ ├─ TodoItem.jsx
-│ │ └─ TodoList.jsx
-│ ├─ App.jsx
-│ ├─ main.jsx
-│ └─ index.css
+│  ├─ components/
+│  │  ├─ TodoForm.jsx
+│  │  ├─ TodoItem.jsx
+│  │  └─ TodoList.jsx
+│  ├─ App.jsx
+│  ├─ main.jsx
+│  └─ index.css
 ├─ .github/workflows/deploy.yml
 ├─ package.json
 ├─ vite.config.js
 └─ README.md
-
+```
 
 ---
 
